@@ -20,7 +20,6 @@
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
-          
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
@@ -172,7 +171,6 @@
         for (tabcontent of tabcontents) {
           tabcontent.classList.remove("active-tab");
         }
-
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
       }

@@ -27,7 +27,7 @@ body{
     padding:10px 10%;
 
 }
-.container.na{
+.container.nav{
     color: #000080;
 }
 nav{
@@ -81,6 +81,8 @@ nav ul li a:hover::after{
 .header-text span{
     color: cadetblue;
 }
+
+
 #about{
     padding: 80px 0;
     color: #ababab;
@@ -129,16 +131,16 @@ nav ul li a:hover::after{
 }
 .tab-links.active-link::after{
     width:50%;
-
 }
+
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
-
 }
+
 .tab-contents ul li span{
     color:navy;
-    font-size: 24 px;
+    font-size: 24px;
     font-weight: bold;
 }
 .tab-contents{
@@ -195,9 +197,6 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
 }
 
-.work:hover img{
-    transform: scale(1.1);
-}
 .work:hover .layer{
     height:100%;
 
@@ -224,7 +223,6 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .social-icons a{
-    text-decoration: none;
     font-size: 30px;   
     margin-right: 15px;
     color: #ababab;
